@@ -47,7 +47,7 @@ for book in books:
         book_price_above_30.append(book.title)
 print(f"There are {len(book_price_above_30)} books above 30$, the titles of the books are:",*book_price_above_30, sep=", ")
 #Q2
-'''fahrenheit_temps = [32, 45, 64, 72, 90, 100, 212]
+fahrenheit_temps = [32, 45, 64, 72, 90, 100, 212]
 #1.Convert Fahrenheit to Celsius using map function.
 def fahrenheit_to_celsius(temp):
     return (temp-32)*(5/9)
@@ -67,4 +67,4 @@ for temp in rounded_celsius_temps:
         classified_temps.append(f"Mild day, Temp:{temp}")
     if temp > 25:
         classified_temps.append(f"Hot day, Temp:{temp}")
-print(classified_temps)'''
+print(classified_temps)
